@@ -9,7 +9,7 @@ import java.io.IOException;
 public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
